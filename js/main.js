@@ -407,17 +407,37 @@
 
 //obiekty-----------------------
 
+// const newOb = {
+// 	name: 'Kamil',
+// 	age: 20,
+// 	car: {
+// 		brand: 'opel',
+// 		model: 'Astra',
+// 		sound: function () {
+// 			console.log('brum brum');
+// 		},
+// 	},
+// };
+// console.log(newOb);
+// console.log(`NAzywam się ${newOb.name} i mam ${newOb.age}`);
+// newOb.car.sound()
+
+// const newOb = {
+// 	name: 'Kamilos',
+// 	age: 20,
+// };
+// newOb.country = 'Uganda';
+
+// newOb['fav-color'] = 'red';
+
+// console.log(newOb);
+
+const nameDog = 'Drops';
+const ageDog = 20;
+
 const newOb = {
-	name: 'Kamil',
-	age: 20,
-	car: {
-		brand: 'opel',
-		model: 'Astra',
-		sound: function () {
-			console.log('brum brum');
-		},
-	},
+	nameDog,
+	ageDog
 };
+
 console.log(newOb);
-console.log(`NAzywam się ${newOb.name} i mam ${newOb.age}`);
-newOb.car.sound()
