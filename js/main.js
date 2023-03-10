@@ -432,12 +432,12 @@
 
 // console.log(newOb);
 
-const nameDog = 'Drops';
-const ageDog = 20;
+// const nameDog = 'Drops';
+// const ageDog = 20;
 
-const newOb = {
-	nameDog,
-	ageDog
-};
+// const newOb = {
+// 	nameDog,
+// 	ageDog
+// };
 
-console.log(newOb);
+// console.log(newOb);
