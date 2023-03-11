@@ -441,3 +441,9 @@
 // };
 
 // console.log(newOb);
+
+const user = { name: 'Kamil', age: 20, sex: 'male', 'hair-color': 'red' };
+
+for (const data in user) {
+	console.log(user[data]);
+}
