@@ -448,3 +448,5 @@ for (const data in user) {
 	console.log(user[data]);
 }
 // this
+
+//Nauka this i dalsza edukacjas
