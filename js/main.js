@@ -442,13 +442,36 @@
 
 // console.log(newOb);
 
-const user = { name: 'Kamil', age: 20, sex: 'male', 'hair-color': 'red' };
+// const user = { name: 'Kamil', age: 20, sex: 'male', 'hair-color': 'red' };
 
-for (const data in user) {
-	console.log(user[data]);
-}
+// for (const data in user) {
+// 	console.log(user[data]);
+// }
 // this
 
 //Nauka this i dalsza edukacjas
 
-//Zobic 
+//Zobic
+
+// const user = "Kamil";
+// console.log(user.length);
+
+// const num1 = 10;
+// const num2 = 20;
+// console.log(num1 + num2);
+
+// const colors = ['red', 'blue', 'green', 'blck', 'puprure'];
+
+// for(let i=0;i<colors.length;i++) {
+// 	console.log(colors[i]);
+// }
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (number of numbers) {
+	console.log(number * 2);
+}
+
+const cars = ['Opel', 'Mafceder', 'Reno', 'Dacia'];
+for (car of cars) {
+	console.log(car.toUpperCase());
+}
